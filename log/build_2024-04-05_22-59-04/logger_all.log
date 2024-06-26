@@ -1,0 +1,280 @@
+[1.731s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.731s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75f3913650c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75f3913218d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75f3913218d0>>)
+[1.812s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.813s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.813s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.813s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.813s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.813s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.813s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sjm/pid_ws'
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_controller) by extension 'ignore'
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_controller) by extension 'ignore_ament_install'
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_controller) by extensions ['colcon_pkg']
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_controller) by extension 'colcon_pkg'
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_controller) by extensions ['colcon_meta']
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_controller) by extension 'colcon_meta'
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_controller) by extensions ['ros']
+[1.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_controller) by extension 'ros'
+[1.837s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pid_controller' with type 'ros.ament_python' and name 'pid_controller'
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune) by extensions ['ignore', 'ignore_ament_install']
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune) by extension 'ignore'
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune) by extension 'ignore_ament_install'
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune) by extensions ['colcon_pkg']
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune) by extension 'colcon_pkg'
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune) by extensions ['colcon_meta']
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune) by extension 'colcon_meta'
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune) by extensions ['ros']
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune) by extension 'ros'
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune) by extensions ['cmake', 'python']
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune) by extension 'cmake'
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune) by extension 'python'
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune) by extensions ['python_setup_py']
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune) by extension 'python_setup_py'
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune/pid_msg) by extensions ['ignore', 'ignore_ament_install']
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune/pid_msg) by extension 'ignore'
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune/pid_msg) by extension 'ignore_ament_install'
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune/pid_msg) by extensions ['colcon_pkg']
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune/pid_msg) by extension 'colcon_pkg'
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune/pid_msg) by extensions ['colcon_meta']
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune/pid_msg) by extension 'colcon_meta'
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune/pid_msg) by extensions ['ros']
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune/pid_msg) by extension 'ros'
+[1.840s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pid_tune/pid_msg' with type 'ros.ament_cmake' and name 'pid_msg'
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune/pid_tune) by extensions ['ignore', 'ignore_ament_install']
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune/pid_tune) by extension 'ignore'
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune/pid_tune) by extension 'ignore_ament_install'
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune/pid_tune) by extensions ['colcon_pkg']
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune/pid_tune) by extension 'colcon_pkg'
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune/pid_tune) by extensions ['colcon_meta']
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune/pid_tune) by extension 'colcon_meta'
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune/pid_tune) by extensions ['ros']
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/pid_tune/pid_tune) by extension 'ros'
+[1.842s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pid_tune/pid_tune' with type 'ros.ament_cmake' and name 'pid_tune'
+[1.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.842s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.843s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.001s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.001s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.055s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/sjm/pid_ws/install
+[2.081s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/sjm/microros_ws/install
+[2.106s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/sjm/lidar/install
+[2.145s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 15 installed packages in /home/sjm/turtlebot3_ws/install
+[2.173s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 338 installed packages in /opt/ros/humble
+[2.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.340s] Level 5:colcon.colcon_core.verb:set package 'pid_controller' build argument 'cmake_args' from command line to 'None'
+[2.340s] Level 5:colcon.colcon_core.verb:set package 'pid_controller' build argument 'cmake_target' from command line to 'None'
+[2.340s] Level 5:colcon.colcon_core.verb:set package 'pid_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.340s] Level 5:colcon.colcon_core.verb:set package 'pid_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[2.340s] Level 5:colcon.colcon_core.verb:set package 'pid_controller' build argument 'cmake_clean_first' from command line to 'False'
+[2.340s] Level 5:colcon.colcon_core.verb:set package 'pid_controller' build argument 'cmake_force_configure' from command line to 'False'
+[2.340s] Level 5:colcon.colcon_core.verb:set package 'pid_controller' build argument 'ament_cmake_args' from command line to 'None'
+[2.340s] Level 5:colcon.colcon_core.verb:set package 'pid_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[2.340s] Level 5:colcon.colcon_core.verb:set package 'pid_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.340s] DEBUG:colcon.colcon_core.verb:Building package 'pid_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sjm/pid_ws/build/pid_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sjm/pid_ws/install/pid_controller', 'merge_install': False, 'path': '/home/sjm/pid_ws/src/pid_controller', 'symlink_install': False, 'test_result_base': None}
+[2.376s] Level 5:colcon.colcon_core.verb:set package 'pid_msg' build argument 'cmake_args' from command line to 'None'
+[2.376s] Level 5:colcon.colcon_core.verb:set package 'pid_msg' build argument 'cmake_target' from command line to 'None'
+[2.376s] Level 5:colcon.colcon_core.verb:set package 'pid_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.376s] Level 5:colcon.colcon_core.verb:set package 'pid_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.376s] Level 5:colcon.colcon_core.verb:set package 'pid_msg' build argument 'cmake_clean_first' from command line to 'False'
+[2.376s] Level 5:colcon.colcon_core.verb:set package 'pid_msg' build argument 'cmake_force_configure' from command line to 'False'
+[2.376s] Level 5:colcon.colcon_core.verb:set package 'pid_msg' build argument 'ament_cmake_args' from command line to 'None'
+[2.376s] Level 5:colcon.colcon_core.verb:set package 'pid_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.376s] Level 5:colcon.colcon_core.verb:set package 'pid_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.376s] DEBUG:colcon.colcon_core.verb:Building package 'pid_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sjm/pid_ws/build/pid_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sjm/pid_ws/install/pid_msg', 'merge_install': False, 'path': '/home/sjm/pid_ws/src/pid_tune/pid_msg', 'symlink_install': False, 'test_result_base': None}
+[2.405s] Level 5:colcon.colcon_core.verb:set package 'pid_tune' build argument 'cmake_args' from command line to 'None'
+[2.405s] Level 5:colcon.colcon_core.verb:set package 'pid_tune' build argument 'cmake_target' from command line to 'None'
+[2.405s] Level 5:colcon.colcon_core.verb:set package 'pid_tune' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.405s] Level 5:colcon.colcon_core.verb:set package 'pid_tune' build argument 'cmake_clean_cache' from command line to 'False'
+[2.405s] Level 5:colcon.colcon_core.verb:set package 'pid_tune' build argument 'cmake_clean_first' from command line to 'False'
+[2.405s] Level 5:colcon.colcon_core.verb:set package 'pid_tune' build argument 'cmake_force_configure' from command line to 'False'
+[2.405s] Level 5:colcon.colcon_core.verb:set package 'pid_tune' build argument 'ament_cmake_args' from command line to 'None'
+[2.405s] Level 5:colcon.colcon_core.verb:set package 'pid_tune' build argument 'catkin_cmake_args' from command line to 'None'
+[2.405s] Level 5:colcon.colcon_core.verb:set package 'pid_tune' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.405s] DEBUG:colcon.colcon_core.verb:Building package 'pid_tune' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sjm/pid_ws/build/pid_tune', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sjm/pid_ws/install/pid_tune', 'merge_install': False, 'path': '/home/sjm/pid_ws/src/pid_tune/pid_tune', 'symlink_install': False, 'test_result_base': None}
+[2.435s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.465s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.466s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sjm/pid_ws/src/pid_tune/pid_msg' with build type 'ament_cmake'
+[2.466s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sjm/pid_ws/src/pid_tune/pid_msg'
+[2.500s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.501s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.501s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.670s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sjm/pid_ws/src/pid_controller' with build type 'ament_python'
+[2.670s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid_controller', 'ament_prefix_path')
+[2.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjm/pid_ws/install/pid_controller/share/pid_controller/hook/ament_prefix_path.ps1'
+[2.698s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sjm/pid_ws/install/pid_controller/share/pid_controller/hook/ament_prefix_path.dsv'
+[2.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjm/pid_ws/install/pid_controller/share/pid_controller/hook/ament_prefix_path.sh'
+[2.726s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.726s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sjm/pid_ws/build/pid_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sjm/pid_ws/install/pid_controller:/home/sjm/lidar/install/robot_math:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop:/home/sjm/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/sjm/pid_ws/build/pid_msg -- -j4 -l4
+[3.554s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sjm/pid_ws/src/pid_controller'
+[3.581s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.581s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.774s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sjm/pid_ws/build/pid_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sjm/pid_ws/install/pid_controller:/home/sjm/lidar/install/robot_math:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop:/home/sjm/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/sjm/pid_ws/build/pid_msg -- -j4 -l4
+[3.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sjm/pid_ws/build/pid_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sjm/pid_ws/install/pid_controller:/home/sjm/lidar/install/robot_math:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop:/home/sjm/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/sjm/pid_ws/build/pid_msg
+[4.048s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pid_msg)
+[4.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sjm/pid_ws/build/pid_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sjm/pid_ws/install/pid_controller:/home/sjm/lidar/install/robot_math:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop:/home/sjm/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/sjm/pid_ws/build/pid_msg
+[4.110s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_msg' for CMake module files
+[4.112s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_msg' for CMake config files
+[4.113s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid_msg', 'cmake_prefix_path')
+[4.160s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjm/pid_ws/install/pid_msg/share/pid_msg/hook/cmake_prefix_path.ps1'
+[4.160s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sjm/pid_ws/install/pid_msg/share/pid_msg/hook/cmake_prefix_path.dsv'
+[4.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjm/pid_ws/install/pid_msg/share/pid_msg/hook/cmake_prefix_path.sh'
+[4.163s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_msg/lib'
+[4.163s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid_msg', 'ld_library_path_lib')
+[4.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjm/pid_ws/install/pid_msg/share/pid_msg/hook/ld_library_path_lib.ps1'
+[4.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sjm/pid_ws/install/pid_msg/share/pid_msg/hook/ld_library_path_lib.dsv'
+[4.196s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjm/pid_ws/install/pid_msg/share/pid_msg/hook/ld_library_path_lib.sh'
+[4.197s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_msg/bin'
+[4.197s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_msg/lib/pkgconfig/pid_msg.pc'
+[4.197s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_msg/lib/python3.10/site-packages'
+[4.198s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_msg/bin'
+[4.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjm/pid_ws/install/pid_msg/share/pid_msg/package.ps1'
+[4.230s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sjm/pid_ws/install/pid_msg/share/pid_msg/package.dsv'
+[4.231s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjm/pid_ws/install/pid_msg/share/pid_msg/package.sh'
+[4.232s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjm/pid_ws/install/pid_msg/share/pid_msg/package.bash'
+[4.233s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjm/pid_ws/install/pid_msg/share/pid_msg/package.zsh'
+[4.234s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sjm/pid_ws/install/pid_msg/share/colcon-core/packages/pid_msg)
+[4.381s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pid_msg)
+[4.412s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_msg' for CMake module files
+[4.413s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_msg' for CMake config files
+[4.413s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid_msg', 'cmake_prefix_path')
+[4.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjm/pid_ws/install/pid_msg/share/pid_msg/hook/cmake_prefix_path.ps1'
+[4.441s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sjm/pid_ws/install/pid_msg/share/pid_msg/hook/cmake_prefix_path.dsv'
+[4.442s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjm/pid_ws/install/pid_msg/share/pid_msg/hook/cmake_prefix_path.sh'
+[4.443s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_msg/lib'
+[4.443s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid_msg', 'ld_library_path_lib')
+[4.471s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjm/pid_ws/install/pid_msg/share/pid_msg/hook/ld_library_path_lib.ps1'
+[4.472s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sjm/pid_ws/install/pid_msg/share/pid_msg/hook/ld_library_path_lib.dsv'
+[4.472s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjm/pid_ws/install/pid_msg/share/pid_msg/hook/ld_library_path_lib.sh'
+[4.473s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_msg/bin'
+[4.473s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_msg/lib/pkgconfig/pid_msg.pc'
+[4.474s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_msg/lib/python3.10/site-packages'
+[4.474s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_msg/bin'
+[4.502s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjm/pid_ws/install/pid_msg/share/pid_msg/package.ps1'
+[4.503s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sjm/pid_ws/install/pid_msg/share/pid_msg/package.dsv'
+[4.504s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjm/pid_ws/install/pid_msg/share/pid_msg/package.sh'
+[4.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjm/pid_ws/install/pid_msg/share/pid_msg/package.bash'
+[4.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjm/pid_ws/install/pid_msg/share/pid_msg/package.zsh'
+[4.507s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sjm/pid_ws/install/pid_msg/share/colcon-core/packages/pid_msg)
+[4.508s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sjm/pid_ws/src/pid_tune/pid_tune' with build type 'ament_cmake'
+[4.509s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sjm/pid_ws/src/pid_tune/pid_tune'
+[4.541s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.541s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.724s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sjm/pid_ws/src/pid_controller': PYTHONPATH=/home/sjm/pid_ws/build/pid_controller/prefix_override:/home/sjm/pid_ws/install/pid_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pid_controller build --build-base /home/sjm/pid_ws/build/pid_controller/build install --record /home/sjm/pid_ws/build/pid_controller/install.log --single-version-externally-managed
+[4.733s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sjm/pid_ws/build/pid_tune': CMAKE_PREFIX_PATH=/home/sjm/pid_ws/install/pid_msg:/home/sjm/pid_ws/install/pid_tune:/home/sjm/microros_ws/install/micro_ros_setup:/home/sjm/lidar/install/turtlebot3_gazebo:/home/sjm/lidar/install/rplidar_ros:/home/sjm/lidar/install/point_cloud_perception:/home/sjm/lidar/install/nodes:/home/sjm/lidar/install/navigation_tb3:/home/sjm/turtlebot3_ws/install/turtlebot3:/home/sjm/turtlebot3_ws/install/turtlebot3_simulations:/home/sjm/turtlebot3_ws/install/turtlebot3_bringup:/home/sjm/turtlebot3_ws/install/turtlebot3_node:/home/sjm/turtlebot3_ws/install/turtlebot3_navigation2:/home/sjm/turtlebot3_ws/install/turtlebot3_fake_node:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs:/home/sjm/turtlebot3_ws/install/turtlebot3_gazebo:/home/sjm/turtlebot3_ws/install/turtlebot3_description:/home/sjm/turtlebot3_ws/install/turtlebot3_cartographer:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_examples:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/sjm/turtlebot3_ws/install/dynamixel_sdk:/home/sjm/pid_ws/install/pid_controller:/home/sjm/lidar/install/robot_math:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop:/home/sjm/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/sjm/pid_ws/build/pid_tune -- -j4 -l4
+[4.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sjm/pid_ws/build/pid_tune' returned '0': CMAKE_PREFIX_PATH=/home/sjm/pid_ws/install/pid_msg:/home/sjm/pid_ws/install/pid_tune:/home/sjm/microros_ws/install/micro_ros_setup:/home/sjm/lidar/install/turtlebot3_gazebo:/home/sjm/lidar/install/rplidar_ros:/home/sjm/lidar/install/point_cloud_perception:/home/sjm/lidar/install/nodes:/home/sjm/lidar/install/navigation_tb3:/home/sjm/turtlebot3_ws/install/turtlebot3:/home/sjm/turtlebot3_ws/install/turtlebot3_simulations:/home/sjm/turtlebot3_ws/install/turtlebot3_bringup:/home/sjm/turtlebot3_ws/install/turtlebot3_node:/home/sjm/turtlebot3_ws/install/turtlebot3_navigation2:/home/sjm/turtlebot3_ws/install/turtlebot3_fake_node:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs:/home/sjm/turtlebot3_ws/install/turtlebot3_gazebo:/home/sjm/turtlebot3_ws/install/turtlebot3_description:/home/sjm/turtlebot3_ws/install/turtlebot3_cartographer:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_examples:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/sjm/turtlebot3_ws/install/dynamixel_sdk:/home/sjm/pid_ws/install/pid_controller:/home/sjm/lidar/install/robot_math:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop:/home/sjm/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/sjm/pid_ws/build/pid_tune -- -j4 -l4
+[4.890s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sjm/pid_ws/build/pid_tune': CMAKE_PREFIX_PATH=/home/sjm/pid_ws/install/pid_msg:/home/sjm/pid_ws/install/pid_tune:/home/sjm/microros_ws/install/micro_ros_setup:/home/sjm/lidar/install/turtlebot3_gazebo:/home/sjm/lidar/install/rplidar_ros:/home/sjm/lidar/install/point_cloud_perception:/home/sjm/lidar/install/nodes:/home/sjm/lidar/install/navigation_tb3:/home/sjm/turtlebot3_ws/install/turtlebot3:/home/sjm/turtlebot3_ws/install/turtlebot3_simulations:/home/sjm/turtlebot3_ws/install/turtlebot3_bringup:/home/sjm/turtlebot3_ws/install/turtlebot3_node:/home/sjm/turtlebot3_ws/install/turtlebot3_navigation2:/home/sjm/turtlebot3_ws/install/turtlebot3_fake_node:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs:/home/sjm/turtlebot3_ws/install/turtlebot3_gazebo:/home/sjm/turtlebot3_ws/install/turtlebot3_description:/home/sjm/turtlebot3_ws/install/turtlebot3_cartographer:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_examples:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/sjm/turtlebot3_ws/install/dynamixel_sdk:/home/sjm/pid_ws/install/pid_controller:/home/sjm/lidar/install/robot_math:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop:/home/sjm/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/sjm/pid_ws/build/pid_tune
+[4.913s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pid_tune)
+[4.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sjm/pid_ws/build/pid_tune' returned '0': CMAKE_PREFIX_PATH=/home/sjm/pid_ws/install/pid_msg:/home/sjm/pid_ws/install/pid_tune:/home/sjm/microros_ws/install/micro_ros_setup:/home/sjm/lidar/install/turtlebot3_gazebo:/home/sjm/lidar/install/rplidar_ros:/home/sjm/lidar/install/point_cloud_perception:/home/sjm/lidar/install/nodes:/home/sjm/lidar/install/navigation_tb3:/home/sjm/turtlebot3_ws/install/turtlebot3:/home/sjm/turtlebot3_ws/install/turtlebot3_simulations:/home/sjm/turtlebot3_ws/install/turtlebot3_bringup:/home/sjm/turtlebot3_ws/install/turtlebot3_node:/home/sjm/turtlebot3_ws/install/turtlebot3_navigation2:/home/sjm/turtlebot3_ws/install/turtlebot3_fake_node:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs:/home/sjm/turtlebot3_ws/install/turtlebot3_gazebo:/home/sjm/turtlebot3_ws/install/turtlebot3_description:/home/sjm/turtlebot3_ws/install/turtlebot3_cartographer:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_examples:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/sjm/turtlebot3_ws/install/dynamixel_sdk:/home/sjm/pid_ws/install/pid_controller:/home/sjm/lidar/install/robot_math:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop:/home/sjm/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --install /home/sjm/pid_ws/build/pid_tune
+[4.968s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_tune' for CMake module files
+[4.969s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_tune' for CMake config files
+[4.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid_tune', 'cmake_prefix_path')
+[5.016s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjm/pid_ws/install/pid_tune/share/pid_tune/hook/cmake_prefix_path.ps1'
+[5.018s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sjm/pid_ws/install/pid_tune/share/pid_tune/hook/cmake_prefix_path.dsv'
+[5.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjm/pid_ws/install/pid_tune/share/pid_tune/hook/cmake_prefix_path.sh'
+[5.022s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_tune/lib'
+[5.023s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_tune/bin'
+[5.023s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_tune/lib/pkgconfig/pid_tune.pc'
+[5.024s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_tune/lib/python3.10/site-packages'
+[5.024s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_tune/bin'
+[5.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjm/pid_ws/install/pid_tune/share/pid_tune/package.ps1'
+[5.080s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sjm/pid_ws/install/pid_tune/share/pid_tune/package.dsv'
+[5.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjm/pid_ws/install/pid_tune/share/pid_tune/package.sh'
+[5.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjm/pid_ws/install/pid_tune/share/pid_tune/package.bash'
+[5.083s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjm/pid_ws/install/pid_tune/share/pid_tune/package.zsh'
+[5.084s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sjm/pid_ws/install/pid_tune/share/colcon-core/packages/pid_tune)
+[5.221s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pid_tune)
+[5.283s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_tune' for CMake module files
+[5.285s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_tune' for CMake config files
+[5.286s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid_tune', 'cmake_prefix_path')
+[5.329s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjm/pid_ws/install/pid_tune/share/pid_tune/hook/cmake_prefix_path.ps1'
+[5.330s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sjm/pid_ws/install/pid_tune/share/pid_tune/hook/cmake_prefix_path.dsv'
+[5.331s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjm/pid_ws/install/pid_tune/share/pid_tune/hook/cmake_prefix_path.sh'
+[5.332s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_tune/lib'
+[5.332s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_tune/bin'
+[5.332s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_tune/lib/pkgconfig/pid_tune.pc'
+[5.333s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_tune/lib/python3.10/site-packages'
+[5.333s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_tune/bin'
+[5.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjm/pid_ws/install/pid_tune/share/pid_tune/package.ps1'
+[5.388s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sjm/pid_ws/install/pid_tune/share/pid_tune/package.dsv'
+[5.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjm/pid_ws/install/pid_tune/share/pid_tune/package.sh'
+[5.389s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjm/pid_ws/install/pid_tune/share/pid_tune/package.bash'
+[5.390s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjm/pid_ws/install/pid_tune/share/pid_tune/package.zsh'
+[5.391s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sjm/pid_ws/install/pid_tune/share/colcon-core/packages/pid_tune)
+[5.594s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sjm/pid_ws/src/pid_controller' returned '0': PYTHONPATH=/home/sjm/pid_ws/build/pid_controller/prefix_override:/home/sjm/pid_ws/install/pid_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pid_controller build --build-base /home/sjm/pid_ws/build/pid_controller/build install --record /home/sjm/pid_ws/build/pid_controller/install.log --single-version-externally-managed
+[5.647s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_controller' for CMake module files
+[5.648s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_controller' for CMake config files
+[5.650s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_controller/lib'
+[5.651s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_controller/bin'
+[5.651s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_controller/lib/pkgconfig/pid_controller.pc'
+[5.652s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_controller/lib/python3.10/site-packages'
+[5.652s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid_controller', 'pythonpath')
+[5.701s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjm/pid_ws/install/pid_controller/share/pid_controller/hook/pythonpath.ps1'
+[5.702s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sjm/pid_ws/install/pid_controller/share/pid_controller/hook/pythonpath.dsv'
+[5.702s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sjm/pid_ws/install/pid_controller/share/pid_controller/hook/pythonpath.sh'
+[5.703s] Level 1:colcon.colcon_core.environment:checking '/home/sjm/pid_ws/install/pid_controller/bin'
+[5.703s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pid_controller)
+[5.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjm/pid_ws/install/pid_controller/share/pid_controller/package.ps1'
+[5.735s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sjm/pid_ws/install/pid_controller/share/pid_controller/package.dsv'
+[5.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjm/pid_ws/install/pid_controller/share/pid_controller/package.sh'
+[5.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjm/pid_ws/install/pid_controller/share/pid_controller/package.bash'
+[5.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/sjm/pid_ws/install/pid_controller/share/pid_controller/package.zsh'
+[5.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sjm/pid_ws/install/pid_controller/share/colcon-core/packages/pid_controller)
+[5.739s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[5.740s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[5.740s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[5.740s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[5.796s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[5.796s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[5.797s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[5.823s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[5.877s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sjm/pid_ws/install/local_setup.ps1'
+[5.880s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sjm/pid_ws/install/_local_setup_util_ps1.py'
+[5.885s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sjm/pid_ws/install/setup.ps1'
+[5.928s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sjm/pid_ws/install/local_setup.sh'
+[5.929s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sjm/pid_ws/install/_local_setup_util_sh.py'
+[5.930s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sjm/pid_ws/install/setup.sh'
+[5.970s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sjm/pid_ws/install/local_setup.bash'
+[5.971s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sjm/pid_ws/install/setup.bash'
+[6.018s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sjm/pid_ws/install/local_setup.zsh'
+[6.019s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sjm/pid_ws/install/setup.zsh'

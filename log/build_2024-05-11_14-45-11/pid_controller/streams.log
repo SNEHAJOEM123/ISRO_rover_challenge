@@ -1,0 +1,23 @@
+[1.411s] Invoking command in '/home/sjm/pid_ws/build/pid_controller': PYTHONPATH=/home/sjm/pid_ws/build/pid_controller/prefix_override:/home/sjm/pid_ws/install/pid_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sjm/pid_ws/build/pid_controller/build --no-deps install_data
+[1.860s] running develop
+[1.894s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.894s]   warnings.warn(
+[1.896s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.896s]   warnings.warn(
+[2.180s] running egg_info
+[2.180s] writing pid_controller.egg-info/PKG-INFO
+[2.181s] writing dependency_links to pid_controller.egg-info/dependency_links.txt
+[2.181s] writing entry points to pid_controller.egg-info/entry_points.txt
+[2.182s] writing requirements to pid_controller.egg-info/requires.txt
+[2.182s] writing top-level names to pid_controller.egg-info/top_level.txt
+[2.186s] reading manifest file 'pid_controller.egg-info/SOURCES.txt'
+[2.187s] writing manifest file 'pid_controller.egg-info/SOURCES.txt'
+[2.190s] running build_ext
+[2.190s] Creating /home/sjm/pid_ws/install/pid_controller/lib/python3.10/site-packages/pid-controller.egg-link (link to .)
+[2.192s] Installing joystick script to /home/sjm/pid_ws/install/pid_controller/lib/pid_controller
+[2.192s] Installing pid_controller script to /home/sjm/pid_ws/install/pid_controller/lib/pid_controller
+[2.192s] Installing pid_joystick script to /home/sjm/pid_ws/install/pid_controller/lib/pid_controller
+[2.193s] 
+[2.193s] Installed /home/sjm/pid_ws/build/pid_controller
+[2.193s] running install_data
+[2.236s] Invoked command in '/home/sjm/pid_ws/build/pid_controller' returned '0': PYTHONPATH=/home/sjm/pid_ws/build/pid_controller/prefix_override:/home/sjm/pid_ws/install/pid_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/sjm/pid_ws/build/pid_controller/build --no-deps install_data

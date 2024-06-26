@@ -1,0 +1,35 @@
+[2.268s] Invoking command in '/home/sjm/pid_ws/src/pid_controller': PYTHONPATH=/home/sjm/pid_ws/build/pid_controller/prefix_override:/home/sjm/pid_ws/install/pid_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pid_controller build --build-base /home/sjm/pid_ws/build/pid_controller/build install --record /home/sjm/pid_ws/build/pid_controller/install.log --single-version-externally-managed
+[2.681s] running egg_info
+[2.682s] creating ../../build/pid_controller/pid_controller.egg-info
+[2.682s] writing ../../build/pid_controller/pid_controller.egg-info/PKG-INFO
+[2.682s] writing dependency_links to ../../build/pid_controller/pid_controller.egg-info/dependency_links.txt
+[2.683s] writing entry points to ../../build/pid_controller/pid_controller.egg-info/entry_points.txt
+[2.683s] writing requirements to ../../build/pid_controller/pid_controller.egg-info/requires.txt
+[2.683s] writing top-level names to ../../build/pid_controller/pid_controller.egg-info/top_level.txt
+[2.683s] writing manifest file '../../build/pid_controller/pid_controller.egg-info/SOURCES.txt'
+[2.686s] reading manifest file '../../build/pid_controller/pid_controller.egg-info/SOURCES.txt'
+[2.687s] writing manifest file '../../build/pid_controller/pid_controller.egg-info/SOURCES.txt'
+[2.687s] running build
+[2.687s] running build_py
+[2.687s] creating /home/sjm/pid_ws/build/pid_controller/build
+[2.688s] creating /home/sjm/pid_ws/build/pid_controller/build/lib
+[2.688s] creating /home/sjm/pid_ws/build/pid_controller/build/lib/pid_controller
+[2.688s] copying pid_controller/__init__.py -> /home/sjm/pid_ws/build/pid_controller/build/lib/pid_controller
+[2.688s] running install
+[2.723s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.724s]   warnings.warn(
+[2.724s] running install_lib
+[2.727s] creating /home/sjm/pid_ws/install/pid_controller/lib/python3.10/site-packages/pid_controller
+[2.727s] copying /home/sjm/pid_ws/build/pid_controller/build/lib/pid_controller/__init__.py -> /home/sjm/pid_ws/install/pid_controller/lib/python3.10/site-packages/pid_controller
+[2.728s] byte-compiling /home/sjm/pid_ws/install/pid_controller/lib/python3.10/site-packages/pid_controller/__init__.py to __init__.cpython-310.pyc
+[2.729s] running install_data
+[2.730s] creating /home/sjm/pid_ws/install/pid_controller/share/ament_index
+[2.731s] creating /home/sjm/pid_ws/install/pid_controller/share/ament_index/resource_index
+[2.731s] creating /home/sjm/pid_ws/install/pid_controller/share/ament_index/resource_index/packages
+[2.732s] copying resource/pid_controller -> /home/sjm/pid_ws/install/pid_controller/share/ament_index/resource_index/packages
+[2.732s] copying package.xml -> /home/sjm/pid_ws/install/pid_controller/share/pid_controller
+[2.732s] running install_egg_info
+[2.737s] Copying ../../build/pid_controller/pid_controller.egg-info to /home/sjm/pid_ws/install/pid_controller/lib/python3.10/site-packages/pid_controller-0.0.0-py3.10.egg-info
+[2.739s] running install_scripts
+[2.774s] writing list of installed files to '/home/sjm/pid_ws/build/pid_controller/install.log'
+[2.807s] Invoked command in '/home/sjm/pid_ws/src/pid_controller' returned '0': PYTHONPATH=/home/sjm/pid_ws/build/pid_controller/prefix_override:/home/sjm/pid_ws/install/pid_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pid_controller build --build-base /home/sjm/pid_ws/build/pid_controller/build install --record /home/sjm/pid_ws/build/pid_controller/install.log --single-version-externally-managed

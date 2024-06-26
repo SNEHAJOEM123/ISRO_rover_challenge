@@ -1,0 +1,13 @@
+[0.677s] Invoking command in '/home/sjm/pid_ws/build/pid_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sjm/pid_ws/install/pid_controller:/home/sjm/lidar/install/robot_math:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop:/home/sjm/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/sjm/pid_ws/build/pid_msg -- -j4 -l4
+[1.443s] failed to create symbolic link '/home/sjm/pid_ws/build/pid_msg/ament_cmake_python/pid_msg/pid_msg' because existing path cannot be removed: Is a directory
+[1.478s] [  3%] Built target pid_msg__cpp
+[1.486s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_pid_msg.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_pid_msg] Error 1
+[1.487s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_pid_msg.dir/all] Error 2
+[1.487s] gmake[1]: *** Waiting for unfinished jobs....
+[1.506s] [ 12%] Built target pid_msg__rosidl_generator_c
+[1.561s] [35m[1mConsolidate compiler generated dependencies of target pid_msg__rosidl_typesupport_introspection_cpp[0m
+[1.571s] [35m[1mConsolidate compiler generated dependencies of target pid_msg__rosidl_typesupport_cpp[0m
+[1.700s] [ 22%] Built target pid_msg__rosidl_typesupport_cpp
+[1.706s] [ 32%] Built target pid_msg__rosidl_typesupport_introspection_cpp
+[1.708s] gmake: *** [Makefile:146: all] Error 2
+[1.712s] Invoked command in '/home/sjm/pid_ws/build/pid_msg' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sjm/pid_ws/install/pid_controller:/home/sjm/lidar/install/robot_math:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop:/home/sjm/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble /usr/bin/cmake --build /home/sjm/pid_ws/build/pid_msg -- -j4 -l4

@@ -1,0 +1,9 @@
+/home/sjm/pid_ws/build/my_petti/CMakeFiles/uninstall.dir
+/home/sjm/pid_ws/build/my_petti/CMakeFiles/my_petti_uninstall.dir
+/home/sjm/pid_ws/build/my_petti/CMakeFiles/test.dir
+/home/sjm/pid_ws/build/my_petti/CMakeFiles/edit_cache.dir
+/home/sjm/pid_ws/build/my_petti/CMakeFiles/rebuild_cache.dir
+/home/sjm/pid_ws/build/my_petti/CMakeFiles/list_install_components.dir
+/home/sjm/pid_ws/build/my_petti/CMakeFiles/install.dir
+/home/sjm/pid_ws/build/my_petti/CMakeFiles/install/local.dir
+/home/sjm/pid_ws/build/my_petti/CMakeFiles/install/strip.dir

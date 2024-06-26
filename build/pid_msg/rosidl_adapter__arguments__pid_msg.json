@@ -1,0 +1,6 @@
+{
+  "package_name": "pid_msg",
+  "non_idl_tuples": [
+    "/home/sjm/pid_ws/src/pid_tune/pid_msg:msg/PidTune.msg"
+  ]
+}

@@ -1,0 +1,5 @@
+[console_scripts]
+joystick = pid_controller.pid_controller_joystick:main
+pid_controller = pid_controller.pid_controller:main
+pid_joystick = pid_controller.pid_controller_joystick_pid:main
+

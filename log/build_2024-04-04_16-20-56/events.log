@@ -1,0 +1,457 @@
+[0.000000] (-) TimerEvent: {}
+[0.000167] (pid_msg) JobQueued: {'identifier': 'pid_msg', 'dependencies': OrderedDict()}
+[0.000237] (pid_tune) JobQueued: {'identifier': 'pid_tune', 'dependencies': OrderedDict([('pid_msg', '/home/sjm/pid_ws/install/pid_msg')])}
+[0.000291] (pid_msg) JobStarted: {'identifier': 'pid_msg'}
+[0.099041] (-) TimerEvent: {}
+[0.199872] (-) TimerEvent: {}
+[0.299288] (pid_msg) JobProgress: {'identifier': 'pid_msg', 'progress': 'cmake'}
+[0.299619] (pid_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/sjm/pid_ws/src/pid_tune/pid_msg', '-DCMAKE_INSTALL_PREFIX=/home/sjm/pid_ws/install/pid_msg'], 'cwd': '/home/sjm/pid_ws/build/pid_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sjm'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sjm/lidar/install/rplidar_ros/lib:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/sjm/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sjm'), ('OLDPWD', '/home/sjm/pid_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2101'), ('SYSTEMD_EXEC_PID', '2437'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17560'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sjm/microros_ws/install:/home/sjm/lidar/install:/home/sjm/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sjm'), ('JOURNAL_STREAM', '8:34139'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sjm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sjm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sjm-Inspiron-3584:@/tmp/.ICE-unix/2284,unix/sjm-Inspiron-3584:/tmp/.ICE-unix/2284'), ('INVOCATION_ID', 'af05aebb92404647a9c6d79283574204'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GGMKL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sjm/microros_ws/install/micro_ros_setup:/home/sjm/lidar/install/turtlebot3_gazebo:/home/sjm/lidar/install/rplidar_ros:/home/sjm/lidar/install/robot_math:/home/sjm/lidar/install/point_cloud_perception:/home/sjm/lidar/install/nodes:/home/sjm/lidar/install/navigation_tb3:/home/sjm/turtlebot3_ws/install/turtlebot3:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop:/home/sjm/turtlebot3_ws/install/turtlebot3_simulations:/home/sjm/turtlebot3_ws/install/turtlebot3_bringup:/home/sjm/turtlebot3_ws/install/turtlebot3_node:/home/sjm/turtlebot3_ws/install/turtlebot3_navigation2:/home/sjm/turtlebot3_ws/install/turtlebot3_fake_node:/home/sjm/turtlebot3_ws/install/turtlebot3_example:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs:/home/sjm/turtlebot3_ws/install/turtlebot3_gazebo:/home/sjm/turtlebot3_ws/install/turtlebot3_description:/home/sjm/turtlebot3_ws/install/turtlebot3_cartographer:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_examples:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/sjm/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ec76e227-a0fd-4aad-8dd7-9766d45d6405'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sjm/pid_ws/build/pid_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sjm/lidar/install/robot_math/lib/python3.10/site-packages:/home/sjm/lidar/install/navigation_tb3/local/lib/python3.10/dist-packages:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/sjm/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sjm/microros_ws/install/micro_ros_setup:/home/sjm/lidar/install/turtlebot3_gazebo:/home/sjm/lidar/install/rplidar_ros:/home/sjm/lidar/install/point_cloud_perception:/home/sjm/lidar/install/nodes:/home/sjm/lidar/install/navigation_tb3:/home/sjm/turtlebot3_ws/install/turtlebot3:/home/sjm/turtlebot3_ws/install/turtlebot3_simulations:/home/sjm/turtlebot3_ws/install/turtlebot3_bringup:/home/sjm/turtlebot3_ws/install/turtlebot3_node:/home/sjm/turtlebot3_ws/install/turtlebot3_navigation2:/home/sjm/turtlebot3_ws/install/turtlebot3_fake_node:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs:/home/sjm/turtlebot3_ws/install/turtlebot3_gazebo:/home/sjm/turtlebot3_ws/install/turtlebot3_description:/home/sjm/turtlebot3_ws/install/turtlebot3_cartographer:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_examples:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/sjm/turtlebot3_ws/install/dynamixel_sdk:/home/sjm/lidar/install/robot_math:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop:/home/sjm/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[0.300844] (-) TimerEvent: {}
+[0.401606] (-) TimerEvent: {}
+[0.502566] (-) TimerEvent: {}
+[0.603179] (-) TimerEvent: {}
+[0.704086] (-) TimerEvent: {}
+[0.805140] (-) TimerEvent: {}
+[0.906108] (-) TimerEvent: {}
+[1.006843] (-) TimerEvent: {}
+[1.107276] (-) TimerEvent: {}
+[1.208700] (-) TimerEvent: {}
+[1.310322] (-) TimerEvent: {}
+[1.411243] (-) TimerEvent: {}
+[1.512113] (-) TimerEvent: {}
+[1.613394] (-) TimerEvent: {}
+[1.714342] (-) TimerEvent: {}
+[1.815345] (-) TimerEvent: {}
+[1.916236] (-) TimerEvent: {}
+[2.017271] (-) TimerEvent: {}
+[2.118029] (-) TimerEvent: {}
+[2.129616] (pid_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[2.218138] (-) TimerEvent: {}
+[2.318502] (-) TimerEvent: {}
+[2.418886] (-) TimerEvent: {}
+[2.519323] (-) TimerEvent: {}
+[2.620022] (-) TimerEvent: {}
+[2.720472] (-) TimerEvent: {}
+[2.820980] (-) TimerEvent: {}
+[2.850227] (pid_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[2.887021] (pid_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.921247] (-) TimerEvent: {}
+[3.021710] (-) TimerEvent: {}
+[3.100057] (pid_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[3.111586] (pid_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[3.112375] (pid_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[3.121883] (-) TimerEvent: {}
+[3.122883] (pid_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[3.130986] (pid_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[3.222013] (-) TimerEvent: {}
+[3.308218] (pid_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.321101] (pid_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.321609] (pid_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.322088] (-) TimerEvent: {}
+[3.322657] (pid_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.422276] (-) TimerEvent: {}
+[3.491789] (pid_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.522455] (-) TimerEvent: {}
+[3.623240] (-) TimerEvent: {}
+[3.723995] (-) TimerEvent: {}
+[3.824423] (-) TimerEvent: {}
+[3.925221] (-) TimerEvent: {}
+[4.025747] (-) TimerEvent: {}
+[4.083031] (pid_msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.126014] (-) TimerEvent: {}
+[4.226345] (-) TimerEvent: {}
+[4.326817] (-) TimerEvent: {}
+[4.427254] (-) TimerEvent: {}
+[4.527699] (-) TimerEvent: {}
+[4.530136] (pid_msg) StdoutLine: {'line': b'-- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[4.627825] (-) TimerEvent: {}
+[4.728246] (-) TimerEvent: {}
+[4.739679] (pid_msg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.774872] (pid_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.803013] (pid_msg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.828476] (-) TimerEvent: {}
+[4.870564] (pid_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.928585] (-) TimerEvent: {}
+[4.943514] (pid_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.028690] (-) TimerEvent: {}
+[5.129160] (-) TimerEvent: {}
+[5.229855] (-) TimerEvent: {}
+[5.255839] (pid_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[5.329986] (-) TimerEvent: {}
+[5.430347] (-) TimerEvent: {}
+[5.530765] (-) TimerEvent: {}
+[5.631101] (-) TimerEvent: {}
+[5.731439] (-) TimerEvent: {}
+[5.809787] (pid_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[5.831653] (-) TimerEvent: {}
+[5.932303] (-) TimerEvent: {}
+[6.032666] (-) TimerEvent: {}
+[6.133001] (-) TimerEvent: {}
+[6.233354] (-) TimerEvent: {}
+[6.333708] (-) TimerEvent: {}
+[6.434031] (-) TimerEvent: {}
+[6.511697] (pid_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[6.534142] (-) TimerEvent: {}
+[6.634512] (-) TimerEvent: {}
+[6.734830] (-) TimerEvent: {}
+[6.742836] (pid_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.785378] (pid_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[6.792546] (pid_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[6.834952] (-) TimerEvent: {}
+[6.935448] (-) TimerEvent: {}
+[6.958128] (pid_msg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[6.959166] (pid_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[6.959506] (pid_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[6.959762] (pid_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[7.013313] (pid_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[7.035552] (-) TimerEvent: {}
+[7.136038] (-) TimerEvent: {}
+[7.168005] (pid_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[7.236207] (-) TimerEvent: {}
+[7.336801] (-) TimerEvent: {}
+[7.373686] (pid_msg) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[7.379415] (pid_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.383418] (pid_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.390911] (pid_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[7.436976] (-) TimerEvent: {}
+[7.537417] (-) TimerEvent: {}
+[7.537830] (pid_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[7.541721] (pid_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/sjm/pid_ws/build/pid_msg\n'}
+[7.550953] (pid_msg) CommandEnded: {'returncode': 0}
+[7.554289] (pid_msg) JobProgress: {'identifier': 'pid_msg', 'progress': 'build'}
+[7.554762] (pid_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sjm/pid_ws/build/pid_msg', '--', '-j4', '-l4'], 'cwd': '/home/sjm/pid_ws/build/pid_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sjm'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sjm/lidar/install/rplidar_ros/lib:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/sjm/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sjm'), ('OLDPWD', '/home/sjm/pid_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2101'), ('SYSTEMD_EXEC_PID', '2437'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17560'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sjm/microros_ws/install:/home/sjm/lidar/install:/home/sjm/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sjm'), ('JOURNAL_STREAM', '8:34139'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sjm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sjm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sjm-Inspiron-3584:@/tmp/.ICE-unix/2284,unix/sjm-Inspiron-3584:/tmp/.ICE-unix/2284'), ('INVOCATION_ID', 'af05aebb92404647a9c6d79283574204'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GGMKL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sjm/microros_ws/install/micro_ros_setup:/home/sjm/lidar/install/turtlebot3_gazebo:/home/sjm/lidar/install/rplidar_ros:/home/sjm/lidar/install/robot_math:/home/sjm/lidar/install/point_cloud_perception:/home/sjm/lidar/install/nodes:/home/sjm/lidar/install/navigation_tb3:/home/sjm/turtlebot3_ws/install/turtlebot3:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop:/home/sjm/turtlebot3_ws/install/turtlebot3_simulations:/home/sjm/turtlebot3_ws/install/turtlebot3_bringup:/home/sjm/turtlebot3_ws/install/turtlebot3_node:/home/sjm/turtlebot3_ws/install/turtlebot3_navigation2:/home/sjm/turtlebot3_ws/install/turtlebot3_fake_node:/home/sjm/turtlebot3_ws/install/turtlebot3_example:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs:/home/sjm/turtlebot3_ws/install/turtlebot3_gazebo:/home/sjm/turtlebot3_ws/install/turtlebot3_description:/home/sjm/turtlebot3_ws/install/turtlebot3_cartographer:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_examples:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/sjm/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ec76e227-a0fd-4aad-8dd7-9766d45d6405'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sjm/pid_ws/build/pid_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sjm/lidar/install/robot_math/lib/python3.10/site-packages:/home/sjm/lidar/install/navigation_tb3/local/lib/python3.10/dist-packages:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/sjm/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sjm/microros_ws/install/micro_ros_setup:/home/sjm/lidar/install/turtlebot3_gazebo:/home/sjm/lidar/install/rplidar_ros:/home/sjm/lidar/install/point_cloud_perception:/home/sjm/lidar/install/nodes:/home/sjm/lidar/install/navigation_tb3:/home/sjm/turtlebot3_ws/install/turtlebot3:/home/sjm/turtlebot3_ws/install/turtlebot3_simulations:/home/sjm/turtlebot3_ws/install/turtlebot3_bringup:/home/sjm/turtlebot3_ws/install/turtlebot3_node:/home/sjm/turtlebot3_ws/install/turtlebot3_navigation2:/home/sjm/turtlebot3_ws/install/turtlebot3_fake_node:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs:/home/sjm/turtlebot3_ws/install/turtlebot3_gazebo:/home/sjm/turtlebot3_ws/install/turtlebot3_description:/home/sjm/turtlebot3_ws/install/turtlebot3_cartographer:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_examples:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/sjm/turtlebot3_ws/install/dynamixel_sdk:/home/sjm/lidar/install/robot_math:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop:/home/sjm/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[7.623569] (pid_msg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.637547] (-) TimerEvent: {}
+[7.640695] (pid_msg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[7.658994] (pid_msg) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_pid_msg\n'}
+[7.737682] (-) TimerEvent: {}
+[7.838023] (-) TimerEvent: {}
+[7.938392] (-) TimerEvent: {}
+[8.038779] (-) TimerEvent: {}
+[8.116281] (pid_msg) StdoutLine: {'line': b'[  6%] Built target pid_msg__cpp\n'}
+[8.138897] (-) TimerEvent: {}
+[8.140327] (pid_msg) StdoutLine: {'line': b'[  9%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.140791] (pid_msg) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.239010] (-) TimerEvent: {}
+[8.339507] (-) TimerEvent: {}
+[8.340703] (pid_msg) StdoutLine: {'line': b'running egg_info\n'}
+[8.342457] (pid_msg) StdoutLine: {'line': b'creating pid_msg.egg-info\n'}
+[8.343049] (pid_msg) StdoutLine: {'line': b'writing pid_msg.egg-info/PKG-INFO\n'}
+[8.343455] (pid_msg) StdoutLine: {'line': b'writing dependency_links to pid_msg.egg-info/dependency_links.txt\n'}
+[8.343888] (pid_msg) StdoutLine: {'line': b'writing top-level names to pid_msg.egg-info/top_level.txt\n'}
+[8.344609] (pid_msg) StdoutLine: {'line': b"writing manifest file 'pid_msg.egg-info/SOURCES.txt'\n"}
+[8.364372] (pid_msg) StdoutLine: {'line': b"reading manifest file 'pid_msg.egg-info/SOURCES.txt'\n"}
+[8.365957] (pid_msg) StdoutLine: {'line': b"writing manifest file 'pid_msg.egg-info/SOURCES.txt'\n"}
+[8.414035] (pid_msg) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/pid_msg__rosidl_generator_c.dir/rosidl_generator_c/pid_msg/msg/detail/pid_tune__functions.c.o\x1b[0m\n'}
+[8.428725] (pid_msg) StdoutLine: {'line': b'[ 16%] Built target ament_cmake_python_build_pid_msg_egg\n'}
+[8.439618] (-) TimerEvent: {}
+[8.445948] (pid_msg) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[8.539737] (-) TimerEvent: {}
+[8.640127] (-) TimerEvent: {}
+[8.740706] (-) TimerEvent: {}
+[8.765103] (pid_msg) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/pid_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pid_msg/msg/pid_tune__type_support.cpp.o\x1b[0m\n'}
+[8.787858] (pid_msg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/pid_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pid_msg/msg/detail/dds_fastrtps/pid_tune__type_support.cpp.o\x1b[0m\n'}
+[8.840851] (-) TimerEvent: {}
+[8.844003] (pid_msg) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking C shared library libpid_msg__rosidl_generator_c.so\x1b[0m\n'}
+[8.940963] (-) TimerEvent: {}
+[8.977473] (pid_msg) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/pid_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pid_msg/msg/detail/pid_tune__type_support.cpp.o\x1b[0m\n'}
+[9.041118] (-) TimerEvent: {}
+[9.043022] (pid_msg) StdoutLine: {'line': b'[ 32%] Built target pid_msg__rosidl_generator_c\n'}
+[9.059853] (pid_msg) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.141272] (-) TimerEvent: {}
+[9.241625] (-) TimerEvent: {}
+[9.342134] (-) TimerEvent: {}
+[9.442482] (-) TimerEvent: {}
+[9.536633] (pid_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/pid_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pid_msg/msg/detail/pid_tune__type_support_c.cpp.o\x1b[0m\n'}
+[9.542603] (-) TimerEvent: {}
+[9.643009] (-) TimerEvent: {}
+[9.743382] (-) TimerEvent: {}
+[9.843723] (-) TimerEvent: {}
+[9.944111] (-) TimerEvent: {}
+[10.044516] (-) TimerEvent: {}
+[10.144926] (-) TimerEvent: {}
+[10.245345] (-) TimerEvent: {}
+[10.304513] (pid_msg) StdoutLine: {'line': b'[ 41%] \x1b[32m\x1b[1mLinking CXX shared library libpid_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[10.345486] (-) TimerEvent: {}
+[10.388646] (pid_msg) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libpid_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.428167] (pid_msg) StdoutLine: {'line': b'[ 45%] Built target pid_msg__rosidl_typesupport_cpp\n'}
+[10.441594] (pid_msg) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libpid_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.445626] (-) TimerEvent: {}
+[10.448549] (pid_msg) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[10.468988] (pid_msg) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libpid_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.545752] (-) TimerEvent: {}
+[10.558196] (pid_msg) StdoutLine: {'line': b'[ 54%] Built target pid_msg__rosidl_typesupport_introspection_cpp\n'}
+[10.584760] (pid_msg) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[10.599175] (pid_msg) StdoutLine: {'line': b'[ 58%] Built target pid_msg__rosidl_typesupport_fastrtps_c\n'}
+[10.645868] (-) TimerEvent: {}
+[10.651762] (pid_msg) StdoutLine: {'line': b'[ 58%] Built target pid_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[10.746013] (-) TimerEvent: {}
+[10.846365] (-) TimerEvent: {}
+[10.946678] (-) TimerEvent: {}
+[11.047037] (-) TimerEvent: {}
+[11.092525] (pid_msg) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/pid_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pid_msg/msg/detail/pid_tune__type_support.c.o\x1b[0m\n'}
+[11.147164] (-) TimerEvent: {}
+[11.158595] (pid_msg) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libpid_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.169631] (pid_msg) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/pid_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/pid_msg/msg/pid_tune__type_support.cpp.o\x1b[0m\n'}
+[11.222116] (pid_msg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libpid_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.237787] (pid_msg) StdoutLine: {'line': b'[ 70%] Built target pid_msg__rosidl_typesupport_introspection_c\n'}
+[11.247339] (-) TimerEvent: {}
+[11.306934] (pid_msg) StdoutLine: {'line': b'[ 70%] Built target pid_msg__rosidl_typesupport_c\n'}
+[11.339964] (pid_msg) StdoutLine: {'line': b'[ 70%] Built target pid_msg\n'}
+[11.347461] (-) TimerEvent: {}
+[11.372390] (pid_msg) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[11.447593] (-) TimerEvent: {}
+[11.547935] (-) TimerEvent: {}
+[11.648282] (-) TimerEvent: {}
+[11.748626] (-) TimerEvent: {}
+[11.848945] (-) TimerEvent: {}
+[11.891410] (pid_msg) StdoutLine: {'line': b'[ 74%] Built target pid_msg__py\n'}
+[11.924823] (pid_msg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/pid_msg__rosidl_generator_py.dir/rosidl_generator_py/pid_msg/msg/_pid_tune_s.c.o\x1b[0m\n'}
+[11.949198] (-) TimerEvent: {}
+[12.049554] (-) TimerEvent: {}
+[12.150154] (-) TimerEvent: {}
+[12.250674] (-) TimerEvent: {}
+[12.351412] (-) TimerEvent: {}
+[12.414826] (pid_msg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pid_msg/libpid_msg__rosidl_generator_py.so\x1b[0m\n'}
+[12.451636] (-) TimerEvent: {}
+[12.510996] (pid_msg) StdoutLine: {'line': b'[ 80%] Built target pid_msg__rosidl_generator_py\n'}
+[12.549264] (pid_msg) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding C object CMakeFiles/pid_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pid_msg/_pid_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.551759] (-) TimerEvent: {}
+[12.555485] (pid_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/pid_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pid_msg/_pid_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.555806] (pid_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/pid_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pid_msg/_pid_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.651900] (-) TimerEvent: {}
+[12.722742] (pid_msg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pid_msg/pid_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.752032] (-) TimerEvent: {}
+[12.788258] (pid_msg) StdoutLine: {'line': b'[ 93%] Built target pid_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[12.815220] (pid_msg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pid_msg/pid_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.820847] (pid_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/pid_msg/pid_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[12.852161] (-) TimerEvent: {}
+[12.878169] (pid_msg) StdoutLine: {'line': b'[100%] Built target pid_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[12.886835] (pid_msg) StdoutLine: {'line': b'[100%] Built target pid_msg__rosidl_typesupport_c__pyext\n'}
+[12.905785] (pid_msg) CommandEnded: {'returncode': 0}
+[12.952312] (-) TimerEvent: {}
+[13.014699] (pid_msg) JobProgress: {'identifier': 'pid_msg', 'progress': 'install'}
+[13.029302] (pid_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sjm/pid_ws/build/pid_msg'], 'cwd': '/home/sjm/pid_ws/build/pid_msg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sjm'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sjm/lidar/install/rplidar_ros/lib:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/sjm/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sjm'), ('OLDPWD', '/home/sjm/pid_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2101'), ('SYSTEMD_EXEC_PID', '2437'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17560'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sjm/microros_ws/install:/home/sjm/lidar/install:/home/sjm/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sjm'), ('JOURNAL_STREAM', '8:34139'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sjm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sjm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sjm-Inspiron-3584:@/tmp/.ICE-unix/2284,unix/sjm-Inspiron-3584:/tmp/.ICE-unix/2284'), ('INVOCATION_ID', 'af05aebb92404647a9c6d79283574204'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GGMKL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sjm/microros_ws/install/micro_ros_setup:/home/sjm/lidar/install/turtlebot3_gazebo:/home/sjm/lidar/install/rplidar_ros:/home/sjm/lidar/install/robot_math:/home/sjm/lidar/install/point_cloud_perception:/home/sjm/lidar/install/nodes:/home/sjm/lidar/install/navigation_tb3:/home/sjm/turtlebot3_ws/install/turtlebot3:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop:/home/sjm/turtlebot3_ws/install/turtlebot3_simulations:/home/sjm/turtlebot3_ws/install/turtlebot3_bringup:/home/sjm/turtlebot3_ws/install/turtlebot3_node:/home/sjm/turtlebot3_ws/install/turtlebot3_navigation2:/home/sjm/turtlebot3_ws/install/turtlebot3_fake_node:/home/sjm/turtlebot3_ws/install/turtlebot3_example:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs:/home/sjm/turtlebot3_ws/install/turtlebot3_gazebo:/home/sjm/turtlebot3_ws/install/turtlebot3_description:/home/sjm/turtlebot3_ws/install/turtlebot3_cartographer:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_examples:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/sjm/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ec76e227-a0fd-4aad-8dd7-9766d45d6405'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sjm/pid_ws/build/pid_msg'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sjm/lidar/install/robot_math/lib/python3.10/site-packages:/home/sjm/lidar/install/navigation_tb3/local/lib/python3.10/dist-packages:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/sjm/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sjm/microros_ws/install/micro_ros_setup:/home/sjm/lidar/install/turtlebot3_gazebo:/home/sjm/lidar/install/rplidar_ros:/home/sjm/lidar/install/point_cloud_perception:/home/sjm/lidar/install/nodes:/home/sjm/lidar/install/navigation_tb3:/home/sjm/turtlebot3_ws/install/turtlebot3:/home/sjm/turtlebot3_ws/install/turtlebot3_simulations:/home/sjm/turtlebot3_ws/install/turtlebot3_bringup:/home/sjm/turtlebot3_ws/install/turtlebot3_node:/home/sjm/turtlebot3_ws/install/turtlebot3_navigation2:/home/sjm/turtlebot3_ws/install/turtlebot3_fake_node:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs:/home/sjm/turtlebot3_ws/install/turtlebot3_gazebo:/home/sjm/turtlebot3_ws/install/turtlebot3_description:/home/sjm/turtlebot3_ws/install/turtlebot3_cartographer:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_examples:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/sjm/turtlebot3_ws/install/dynamixel_sdk:/home/sjm/lidar/install/robot_math:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop:/home/sjm/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[13.042460] (pid_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.042726] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/ament_index/resource_index/rosidl_interfaces/pid_msg\n'}
+[13.043018] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg\n'}
+[13.043274] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg\n'}
+[13.043540] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[13.043828] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/detail\n'}
+[13.043950] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/detail/pid_tune__struct.h\n'}
+[13.044115] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/detail/pid_tune__functions.h\n'}
+[13.044251] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/detail/pid_tune__functions.c\n'}
+[13.044431] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/detail/pid_tune__type_support.h\n'}
+[13.044647] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/pid_tune.h\n'}
+[13.044926] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/environment/library_path.sh\n'}
+[13.045176] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/environment/library_path.dsv\n'}
+[13.045493] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/lib/libpid_msg__rosidl_generator_c.so\n'}
+[13.046657] (pid_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sjm/pid_ws/install/pid_msg/lib/libpid_msg__rosidl_generator_c.so" to ""\n'}
+[13.047035] (pid_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg\n'}
+[13.047170] (pid_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg\n'}
+[13.047275] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[13.047675] (pid_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/detail\n'}
+[13.047979] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/detail/pid_tune__rosidl_typesupport_fastrtps_c.h\n'}
+[13.048242] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/lib/libpid_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[13.048480] (pid_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sjm/pid_ws/install/pid_msg/lib/libpid_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[13.048763] (pid_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg\n'}
+[13.049019] (pid_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg\n'}
+[13.049313] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/pid_tune.hpp\n'}
+[13.049568] (pid_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/detail\n'}
+[13.049757] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/detail/pid_tune__traits.hpp\n'}
+[13.050091] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/detail/pid_tune__builder.hpp\n'}
+[13.050365] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/detail/pid_tune__struct.hpp\n'}
+[13.050615] (pid_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg\n'}
+[13.050805] (pid_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg\n'}
+[13.051074] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[13.051285] (pid_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/detail\n'}
+[13.051525] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/detail/pid_tune__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[13.051755] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/detail/dds_fastrtps\n'}
+[13.051943] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/lib/libpid_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[13.052259] (pid_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sjm/pid_ws/install/pid_msg/lib/libpid_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[13.052491] (-) TimerEvent: {}
+[13.052721] (pid_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg\n'}
+[13.052975] (pid_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg\n'}
+[13.053204] (pid_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/detail\n'}
+[13.053447] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/detail/pid_tune__type_support.c\n'}
+[13.053783] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/detail/pid_tune__rosidl_typesupport_introspection_c.h\n'}
+[13.054037] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[13.054247] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/lib/libpid_msg__rosidl_typesupport_introspection_c.so\n'}
+[13.054494] (pid_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sjm/pid_ws/install/pid_msg/lib/libpid_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[13.054738] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/lib/libpid_msg__rosidl_typesupport_c.so\n'}
+[13.055030] (pid_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sjm/pid_ws/install/pid_msg/lib/libpid_msg__rosidl_typesupport_c.so" to ""\n'}
+[13.055340] (pid_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg\n'}
+[13.055585] (pid_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg\n'}
+[13.055820] (pid_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/detail\n'}
+[13.056060] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/detail/pid_tune__type_support.cpp\n'}
+[13.056275] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/include/pid_msg/pid_msg/msg/detail/pid_tune__rosidl_typesupport_introspection_cpp.hpp\n'}
+[13.056519] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/lib/libpid_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[13.056798] (pid_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sjm/pid_ws/install/pid_msg/lib/libpid_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[13.057038] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/lib/libpid_msg__rosidl_typesupport_cpp.so\n'}
+[13.057660] (pid_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sjm/pid_ws/install/pid_msg/lib/libpid_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[13.057922] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/environment/pythonpath.sh\n'}
+[13.058254] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/environment/pythonpath.dsv\n'}
+[13.058539] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg-0.0.0-py3.10.egg-info\n'}
+[13.058878] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[13.059156] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[13.059409] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[13.059651] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[13.059902] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg\n'}
+[13.060154] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg/pid_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.060415] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg/pid_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.060664] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg/_pid_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[13.060915] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg/_pid_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[13.061400] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg/msg\n'}
+[13.061641] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg/msg/_pid_tune.py\n'}
+[13.061962] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg/msg/_pid_tune_s.c\n'}
+[13.062224] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg/msg/__init__.py\n'}
+[13.062476] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg/_pid_msg_s.ep.rosidl_typesupport_c.c\n'}
+[13.062839] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg/pid_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.063049] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg/libpid_msg__rosidl_generator_py.so\n'}
+[13.063370] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg/__init__.py\n'}
+[13.150030] (pid_msg) StdoutLine: {'line': b"Listing '/home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg'...\n"}
+[13.150327] (pid_msg) StdoutLine: {'line': b"Compiling '/home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg/__init__.py'...\n"}
+[13.150517] (pid_msg) StdoutLine: {'line': b"Listing '/home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg/msg'...\n"}
+[13.150677] (pid_msg) StdoutLine: {'line': b"Compiling '/home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg/msg/__init__.py'...\n"}
+[13.150832] (pid_msg) StdoutLine: {'line': b"Compiling '/home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg/msg/_pid_tune.py'...\n"}
+[13.152616] (-) TimerEvent: {}
+[13.157654] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg/pid_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.158408] (pid_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg/pid_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[13.158853] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg/pid_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.159557] (pid_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg/pid_msg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[13.159984] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg/pid_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[13.160736] (pid_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages/pid_msg/pid_msg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[13.161025] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/lib/libpid_msg__rosidl_generator_py.so\n'}
+[13.161743] (pid_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sjm/pid_ws/install/pid_msg/lib/libpid_msg__rosidl_generator_py.so" to ""\n'}
+[13.162032] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/msg/PidTune.idl\n'}
+[13.162380] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/msg/PidTune.msg\n'}
+[13.162711] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/ament_index/resource_index/package_run_dependencies/pid_msg\n'}
+[13.163077] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/ament_index/resource_index/parent_prefix_path/pid_msg\n'}
+[13.163395] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/environment/ament_prefix_path.sh\n'}
+[13.163675] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/environment/ament_prefix_path.dsv\n'}
+[13.163958] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/environment/path.sh\n'}
+[13.164248] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/environment/path.dsv\n'}
+[13.164555] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/local_setup.bash\n'}
+[13.164820] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/local_setup.sh\n'}
+[13.165121] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/local_setup.zsh\n'}
+[13.165377] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/local_setup.dsv\n'}
+[13.165704] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/package.dsv\n'}
+[13.166035] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/ament_index/resource_index/packages/pid_msg\n'}
+[13.166399] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/export_pid_msg__rosidl_generator_cExport.cmake\n'}
+[13.166655] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/export_pid_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[13.166902] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/export_pid_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[13.167131] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/export_pid_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[13.167366] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/export_pid_msg__rosidl_generator_cppExport.cmake\n'}
+[13.167612] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/export_pid_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[13.167885] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/export_pid_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[13.168131] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/pid_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[13.168433] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/pid_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[13.168683] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/pid_msg__rosidl_typesupport_cExport.cmake\n'}
+[13.168935] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/pid_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[13.169181] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/pid_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[13.169407] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/pid_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[13.169664] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/pid_msg__rosidl_typesupport_cppExport.cmake\n'}
+[13.169905] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/pid_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[13.170170] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/export_pid_msg__rosidl_generator_pyExport.cmake\n'}
+[13.170413] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/export_pid_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[13.170645] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[13.170873] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[13.171108] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.171355] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[13.171618] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[13.171849] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[13.172095] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[13.172326] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/pid_msgConfig.cmake\n'}
+[13.172542] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake/pid_msgConfig-version.cmake\n'}
+[13.172750] (pid_msg) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_msg/share/pid_msg/package.xml\n'}
+[13.176248] (pid_msg) CommandEnded: {'returncode': 0}
+[13.252812] (-) TimerEvent: {}
+[13.353550] (-) TimerEvent: {}
+[13.453907] (-) TimerEvent: {}
+[13.554228] (-) TimerEvent: {}
+[13.654621] (-) TimerEvent: {}
+[13.693252] (pid_msg) JobEnded: {'identifier': 'pid_msg', 'rc': 0}
+[13.694762] (pid_tune) JobStarted: {'identifier': 'pid_tune'}
+[13.754753] (-) TimerEvent: {}
+[13.855292] (-) TimerEvent: {}
+[13.861373] (pid_tune) JobProgress: {'identifier': 'pid_tune', 'progress': 'cmake'}
+[13.861891] (pid_tune) Command: {'cmd': ['/usr/bin/cmake', '/home/sjm/pid_ws/src/pid_tune/pid_tune', '-DCMAKE_INSTALL_PREFIX=/home/sjm/pid_ws/install/pid_tune'], 'cwd': '/home/sjm/pid_ws/build/pid_tune', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sjm'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sjm/pid_ws/install/pid_msg/lib:/home/sjm/lidar/install/rplidar_ros/lib:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/sjm/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sjm'), ('OLDPWD', '/home/sjm/pid_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2101'), ('SYSTEMD_EXEC_PID', '2437'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17560'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sjm/microros_ws/install:/home/sjm/lidar/install:/home/sjm/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sjm'), ('JOURNAL_STREAM', '8:34139'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sjm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sjm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sjm-Inspiron-3584:@/tmp/.ICE-unix/2284,unix/sjm-Inspiron-3584:/tmp/.ICE-unix/2284'), ('INVOCATION_ID', 'af05aebb92404647a9c6d79283574204'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GGMKL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sjm/pid_ws/install/pid_msg:/home/sjm/microros_ws/install/micro_ros_setup:/home/sjm/lidar/install/turtlebot3_gazebo:/home/sjm/lidar/install/rplidar_ros:/home/sjm/lidar/install/robot_math:/home/sjm/lidar/install/point_cloud_perception:/home/sjm/lidar/install/nodes:/home/sjm/lidar/install/navigation_tb3:/home/sjm/turtlebot3_ws/install/turtlebot3:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop:/home/sjm/turtlebot3_ws/install/turtlebot3_simulations:/home/sjm/turtlebot3_ws/install/turtlebot3_bringup:/home/sjm/turtlebot3_ws/install/turtlebot3_node:/home/sjm/turtlebot3_ws/install/turtlebot3_navigation2:/home/sjm/turtlebot3_ws/install/turtlebot3_fake_node:/home/sjm/turtlebot3_ws/install/turtlebot3_example:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs:/home/sjm/turtlebot3_ws/install/turtlebot3_gazebo:/home/sjm/turtlebot3_ws/install/turtlebot3_description:/home/sjm/turtlebot3_ws/install/turtlebot3_cartographer:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_examples:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/sjm/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ec76e227-a0fd-4aad-8dd7-9766d45d6405'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sjm/pid_ws/build/pid_tune'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages:/home/sjm/lidar/install/robot_math/lib/python3.10/site-packages:/home/sjm/lidar/install/navigation_tb3/local/lib/python3.10/dist-packages:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/sjm/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sjm/pid_ws/install/pid_msg:/home/sjm/microros_ws/install/micro_ros_setup:/home/sjm/lidar/install/turtlebot3_gazebo:/home/sjm/lidar/install/rplidar_ros:/home/sjm/lidar/install/point_cloud_perception:/home/sjm/lidar/install/nodes:/home/sjm/lidar/install/navigation_tb3:/home/sjm/turtlebot3_ws/install/turtlebot3:/home/sjm/turtlebot3_ws/install/turtlebot3_simulations:/home/sjm/turtlebot3_ws/install/turtlebot3_bringup:/home/sjm/turtlebot3_ws/install/turtlebot3_node:/home/sjm/turtlebot3_ws/install/turtlebot3_navigation2:/home/sjm/turtlebot3_ws/install/turtlebot3_fake_node:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs:/home/sjm/turtlebot3_ws/install/turtlebot3_gazebo:/home/sjm/turtlebot3_ws/install/turtlebot3_description:/home/sjm/turtlebot3_ws/install/turtlebot3_cartographer:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_examples:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/sjm/turtlebot3_ws/install/dynamixel_sdk:/home/sjm/lidar/install/robot_math:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop:/home/sjm/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[13.949904] (pid_tune) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[13.955440] (-) TimerEvent: {}
+[14.040952] (pid_tune) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[14.052581] (pid_tune) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[14.055580] (-) TimerEvent: {}
+[14.155945] (-) TimerEvent: {}
+[14.161192] (pid_tune) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[14.172673] (pid_tune) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[14.173015] (pid_tune) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[14.173647] (pid_tune) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[14.178204] (pid_tune) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[14.256057] (-) TimerEvent: {}
+[14.305277] (pid_tune) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[14.317031] (pid_tune) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[14.317439] (pid_tune) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[14.318161] (pid_tune) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[14.325869] (pid_tune) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[14.356163] (-) TimerEvent: {}
+[14.456555] (-) TimerEvent: {}
+[14.556867] (-) TimerEvent: {}
+[14.585527] (pid_tune) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[14.656996] (-) TimerEvent: {}
+[14.757333] (-) TimerEvent: {}
+[14.821126] (pid_tune) StdoutLine: {'line': b'-- Found rclpy: 3.3.12 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[14.822099] (pid_tune) StdoutLine: {'line': b'-- Found pid_msg: 0.0.0 (/home/sjm/pid_ws/install/pid_msg/share/pid_msg/cmake)\n'}
+[14.857467] (-) TimerEvent: {}
+[14.925559] (pid_tune) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[14.941352] (pid_tune) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[14.957589] (-) TimerEvent: {}
+[14.962940] (pid_tune) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[14.994041] (pid_tune) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[15.038262] (pid_tune) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.057702] (-) TimerEvent: {}
+[15.158086] (-) TimerEvent: {}
+[15.234783] (pid_tune) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[15.258181] (-) TimerEvent: {}
+[15.358528] (-) TimerEvent: {}
+[15.401010] (pid_tune) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[15.404835] (pid_tune) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[15.406528] (pid_tune) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.407993] (pid_tune) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[15.410332] (pid_tune) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.413524] (pid_tune) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.419308] (pid_tune) StdoutLine: {'line': b'-- Generating done\n'}
+[15.421068] (pid_tune) StdoutLine: {'line': b'-- Build files have been written to: /home/sjm/pid_ws/build/pid_tune\n'}
+[15.430250] (pid_tune) CommandEnded: {'returncode': 0}
+[15.431066] (pid_tune) JobProgress: {'identifier': 'pid_tune', 'progress': 'build'}
+[15.432195] (pid_tune) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sjm/pid_ws/build/pid_tune', '--', '-j4', '-l4'], 'cwd': '/home/sjm/pid_ws/build/pid_tune', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sjm'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sjm/pid_ws/install/pid_msg/lib:/home/sjm/lidar/install/rplidar_ros/lib:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/sjm/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sjm'), ('OLDPWD', '/home/sjm/pid_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2101'), ('SYSTEMD_EXEC_PID', '2437'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17560'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sjm/microros_ws/install:/home/sjm/lidar/install:/home/sjm/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sjm'), ('JOURNAL_STREAM', '8:34139'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sjm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sjm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sjm-Inspiron-3584:@/tmp/.ICE-unix/2284,unix/sjm-Inspiron-3584:/tmp/.ICE-unix/2284'), ('INVOCATION_ID', 'af05aebb92404647a9c6d79283574204'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GGMKL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sjm/pid_ws/install/pid_msg:/home/sjm/microros_ws/install/micro_ros_setup:/home/sjm/lidar/install/turtlebot3_gazebo:/home/sjm/lidar/install/rplidar_ros:/home/sjm/lidar/install/robot_math:/home/sjm/lidar/install/point_cloud_perception:/home/sjm/lidar/install/nodes:/home/sjm/lidar/install/navigation_tb3:/home/sjm/turtlebot3_ws/install/turtlebot3:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop:/home/sjm/turtlebot3_ws/install/turtlebot3_simulations:/home/sjm/turtlebot3_ws/install/turtlebot3_bringup:/home/sjm/turtlebot3_ws/install/turtlebot3_node:/home/sjm/turtlebot3_ws/install/turtlebot3_navigation2:/home/sjm/turtlebot3_ws/install/turtlebot3_fake_node:/home/sjm/turtlebot3_ws/install/turtlebot3_example:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs:/home/sjm/turtlebot3_ws/install/turtlebot3_gazebo:/home/sjm/turtlebot3_ws/install/turtlebot3_description:/home/sjm/turtlebot3_ws/install/turtlebot3_cartographer:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_examples:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/sjm/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ec76e227-a0fd-4aad-8dd7-9766d45d6405'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sjm/pid_ws/build/pid_tune'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages:/home/sjm/lidar/install/robot_math/lib/python3.10/site-packages:/home/sjm/lidar/install/navigation_tb3/local/lib/python3.10/dist-packages:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/sjm/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sjm/pid_ws/install/pid_msg:/home/sjm/microros_ws/install/micro_ros_setup:/home/sjm/lidar/install/turtlebot3_gazebo:/home/sjm/lidar/install/rplidar_ros:/home/sjm/lidar/install/point_cloud_perception:/home/sjm/lidar/install/nodes:/home/sjm/lidar/install/navigation_tb3:/home/sjm/turtlebot3_ws/install/turtlebot3:/home/sjm/turtlebot3_ws/install/turtlebot3_simulations:/home/sjm/turtlebot3_ws/install/turtlebot3_bringup:/home/sjm/turtlebot3_ws/install/turtlebot3_node:/home/sjm/turtlebot3_ws/install/turtlebot3_navigation2:/home/sjm/turtlebot3_ws/install/turtlebot3_fake_node:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs:/home/sjm/turtlebot3_ws/install/turtlebot3_gazebo:/home/sjm/turtlebot3_ws/install/turtlebot3_description:/home/sjm/turtlebot3_ws/install/turtlebot3_cartographer:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_examples:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/sjm/turtlebot3_ws/install/dynamixel_sdk:/home/sjm/lidar/install/robot_math:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop:/home/sjm/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[15.458689] (-) TimerEvent: {}
+[15.496095] (pid_tune) CommandEnded: {'returncode': 0}
+[15.532794] (pid_tune) JobProgress: {'identifier': 'pid_tune', 'progress': 'install'}
+[15.533607] (pid_tune) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sjm/pid_ws/build/pid_tune'], 'cwd': '/home/sjm/pid_ws/build/pid_tune', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'sjm'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sjm/pid_ws/install/pid_msg/lib:/home/sjm/lidar/install/rplidar_ros/lib:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs/lib:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/lib:/home/sjm/turtlebot3_ws/install/dynamixel_sdk/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/sjm'), ('OLDPWD', '/home/sjm/pid_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '2101'), ('SYSTEMD_EXEC_PID', '2437'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '17560'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/sjm/microros_ws/install:/home/sjm/lidar/install:/home/sjm/turtlebot3_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sjm'), ('JOURNAL_STREAM', '8:34139'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sjm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/sjm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/sjm-Inspiron-3584:@/tmp/.ICE-unix/2284,unix/sjm-Inspiron-3584:/tmp/.ICE-unix/2284'), ('INVOCATION_ID', 'af05aebb92404647a9c6d79283574204'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GGMKL2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sjm/pid_ws/install/pid_msg:/home/sjm/microros_ws/install/micro_ros_setup:/home/sjm/lidar/install/turtlebot3_gazebo:/home/sjm/lidar/install/rplidar_ros:/home/sjm/lidar/install/robot_math:/home/sjm/lidar/install/point_cloud_perception:/home/sjm/lidar/install/nodes:/home/sjm/lidar/install/navigation_tb3:/home/sjm/turtlebot3_ws/install/turtlebot3:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop:/home/sjm/turtlebot3_ws/install/turtlebot3_simulations:/home/sjm/turtlebot3_ws/install/turtlebot3_bringup:/home/sjm/turtlebot3_ws/install/turtlebot3_node:/home/sjm/turtlebot3_ws/install/turtlebot3_navigation2:/home/sjm/turtlebot3_ws/install/turtlebot3_fake_node:/home/sjm/turtlebot3_ws/install/turtlebot3_example:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs:/home/sjm/turtlebot3_ws/install/turtlebot3_gazebo:/home/sjm/turtlebot3_ws/install/turtlebot3_description:/home/sjm/turtlebot3_ws/install/turtlebot3_cartographer:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_examples:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/sjm/turtlebot3_ws/install/dynamixel_sdk:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:ec76e227-a0fd-4aad-8dd7-9766d45d6405'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sjm/pid_ws/build/pid_tune'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sjm/pid_ws/install/pid_msg/local/lib/python3.10/dist-packages:/home/sjm/lidar/install/robot_math/lib/python3.10/site-packages:/home/sjm/lidar/install/navigation_tb3/local/lib/python3.10/dist-packages:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/sjm/turtlebot3_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs/local/lib/python3.10/dist-packages:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/sjm/pid_ws/install/pid_msg:/home/sjm/microros_ws/install/micro_ros_setup:/home/sjm/lidar/install/turtlebot3_gazebo:/home/sjm/lidar/install/rplidar_ros:/home/sjm/lidar/install/point_cloud_perception:/home/sjm/lidar/install/nodes:/home/sjm/lidar/install/navigation_tb3:/home/sjm/turtlebot3_ws/install/turtlebot3:/home/sjm/turtlebot3_ws/install/turtlebot3_simulations:/home/sjm/turtlebot3_ws/install/turtlebot3_bringup:/home/sjm/turtlebot3_ws/install/turtlebot3_node:/home/sjm/turtlebot3_ws/install/turtlebot3_navigation2:/home/sjm/turtlebot3_ws/install/turtlebot3_fake_node:/home/sjm/turtlebot3_ws/install/turtlebot3_msgs:/home/sjm/turtlebot3_ws/install/turtlebot3_gazebo:/home/sjm/turtlebot3_ws/install/turtlebot3_description:/home/sjm/turtlebot3_ws/install/turtlebot3_cartographer:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_examples:/home/sjm/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces:/home/sjm/turtlebot3_ws/install/dynamixel_sdk:/home/sjm/lidar/install/robot_math:/home/sjm/turtlebot3_ws/install/turtlebot3_teleop:/home/sjm/turtlebot3_ws/install/turtlebot3_example:/opt/ros/humble')]), 'shell': False}
+[15.547239] (pid_tune) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.547590] (pid_tune) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_tune/lib/pid_tune/pid_tune_differential.py\n'}
+[15.547847] (pid_tune) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_tune/lib/pid_tune/pid_tune_drone.py\n'}
+[15.548110] (pid_tune) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_tune/share/pid_tune//launch\n'}
+[15.548362] (pid_tune) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_tune/share/pid_tune//launch/pid_tune_drone.launch.py\n'}
+[15.548601] (pid_tune) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_tune/share/pid_tune//launch/pid_tune_diff.launch.py\n'}
+[15.548811] (pid_tune) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_tune/share/ament_index/resource_index/package_run_dependencies/pid_tune\n'}
+[15.549085] (pid_tune) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_tune/share/ament_index/resource_index/parent_prefix_path/pid_tune\n'}
+[15.549379] (pid_tune) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_tune/share/pid_tune/environment/ament_prefix_path.sh\n'}
+[15.549608] (pid_tune) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_tune/share/pid_tune/environment/ament_prefix_path.dsv\n'}
+[15.549847] (pid_tune) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_tune/share/pid_tune/environment/path.sh\n'}
+[15.550228] (pid_tune) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_tune/share/pid_tune/environment/path.dsv\n'}
+[15.550469] (pid_tune) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_tune/share/pid_tune/local_setup.bash\n'}
+[15.550815] (pid_tune) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_tune/share/pid_tune/local_setup.sh\n'}
+[15.551150] (pid_tune) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_tune/share/pid_tune/local_setup.zsh\n'}
+[15.551332] (pid_tune) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_tune/share/pid_tune/local_setup.dsv\n'}
+[15.551504] (pid_tune) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_tune/share/pid_tune/package.dsv\n'}
+[15.551748] (pid_tune) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_tune/share/ament_index/resource_index/packages/pid_tune\n'}
+[15.552056] (pid_tune) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_tune/share/pid_tune/cmake/pid_tuneConfig.cmake\n'}
+[15.552241] (pid_tune) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_tune/share/pid_tune/cmake/pid_tuneConfig-version.cmake\n'}
+[15.552483] (pid_tune) StdoutLine: {'line': b'-- Installing: /home/sjm/pid_ws/install/pid_tune/share/pid_tune/package.xml\n'}
+[15.555477] (pid_tune) CommandEnded: {'returncode': 0}
+[15.559173] (-) TimerEvent: {}
+[15.659472] (-) TimerEvent: {}
+[15.759887] (-) TimerEvent: {}
+[15.796862] (pid_tune) JobEnded: {'identifier': 'pid_tune', 'rc': 0}
+[15.797977] (-) EventReactorShutdown: {}

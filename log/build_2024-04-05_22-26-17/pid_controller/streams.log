@@ -1,0 +1,26 @@
+[2.597s] Invoking command in '/home/sjm/pid_ws/src/pid_controller': PYTHONPATH=/home/sjm/pid_ws/build/pid_controller/prefix_override:/home/sjm/pid_ws/install/pid_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pid_controller build --build-base /home/sjm/pid_ws/build/pid_controller/build install --record /home/sjm/pid_ws/build/pid_controller/install.log --single-version-externally-managed
+[3.032s] running egg_info
+[3.032s] writing ../../build/pid_controller/pid_controller.egg-info/PKG-INFO
+[3.033s] writing dependency_links to ../../build/pid_controller/pid_controller.egg-info/dependency_links.txt
+[3.033s] writing entry points to ../../build/pid_controller/pid_controller.egg-info/entry_points.txt
+[3.033s] writing requirements to ../../build/pid_controller/pid_controller.egg-info/requires.txt
+[3.033s] writing top-level names to ../../build/pid_controller/pid_controller.egg-info/top_level.txt
+[3.037s] reading manifest file '../../build/pid_controller/pid_controller.egg-info/SOURCES.txt'
+[3.098s] writing manifest file '../../build/pid_controller/pid_controller.egg-info/SOURCES.txt'
+[3.099s] running build
+[3.099s] running build_py
+[3.100s] copying pid_controller/pid_controller.py -> /home/sjm/pid_ws/build/pid_controller/build/lib/pid_controller
+[3.276s] running install
+[3.276s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.276s]   warnings.warn(
+[3.277s] running install_lib
+[3.307s] copying /home/sjm/pid_ws/build/pid_controller/build/lib/pid_controller/pid_controller.py -> /home/sjm/pid_ws/install/pid_controller/lib/python3.10/site-packages/pid_controller
+[3.309s] byte-compiling /home/sjm/pid_ws/install/pid_controller/lib/python3.10/site-packages/pid_controller/pid_controller.py to pid_controller.cpython-310.pyc
+[3.312s] running install_data
+[3.313s] running install_egg_info
+[3.318s] removing '/home/sjm/pid_ws/install/pid_controller/lib/python3.10/site-packages/pid_controller-0.0.0-py3.10.egg-info' (and everything under it)
+[3.319s] Copying ../../build/pid_controller/pid_controller.egg-info to /home/sjm/pid_ws/install/pid_controller/lib/python3.10/site-packages/pid_controller-0.0.0-py3.10.egg-info
+[3.321s] running install_scripts
+[3.371s] Installing pid_controller script to /home/sjm/pid_ws/install/pid_controller/lib/pid_controller
+[3.372s] writing list of installed files to '/home/sjm/pid_ws/build/pid_controller/install.log'
+[3.454s] Invoked command in '/home/sjm/pid_ws/src/pid_controller' returned '0': PYTHONPATH=/home/sjm/pid_ws/build/pid_controller/prefix_override:/home/sjm/pid_ws/install/pid_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/pid_controller build --build-base /home/sjm/pid_ws/build/pid_controller/build install --record /home/sjm/pid_ws/build/pid_controller/install.log --single-version-externally-managed

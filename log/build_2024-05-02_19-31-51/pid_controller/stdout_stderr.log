@@ -1,0 +1,21 @@
+running develop
+/usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing pid_controller.egg-info/PKG-INFO
+writing dependency_links to pid_controller.egg-info/dependency_links.txt
+writing entry points to pid_controller.egg-info/entry_points.txt
+writing requirements to pid_controller.egg-info/requires.txt
+writing top-level names to pid_controller.egg-info/top_level.txt
+reading manifest file 'pid_controller.egg-info/SOURCES.txt'
+writing manifest file 'pid_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sjm/pid_ws/install/pid_controller/lib/python3.10/site-packages/pid-controller.egg-link (link to .)
+Installing joystick script to /home/sjm/pid_ws/install/pid_controller/lib/pid_controller
+Installing pid_controller script to /home/sjm/pid_ws/install/pid_controller/lib/pid_controller
+Installing pid_joystick script to /home/sjm/pid_ws/install/pid_controller/lib/pid_controller
+
+Installed /home/sjm/pid_ws/build/pid_controller
+running install_data
